@@ -1,15 +1,15 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Footer from '.';
+import Header from '.';
 
-describe('Footer Component', () => {
+describe('Header Component', () => {
   it('matches snapshot without props', () => {
-    const tree = renderer.create(<Footer />).toJSON();
+    const tree = renderer.create(<Header />).toJSON();
     expect(tree).toMatchSnapshot();
   });
   it('can shallowly render without props', () => {
-    let footer = shallow(<Footer />);
-    expect(footer.find('p').exists()).toBe(true);
-  })
+    let header = shallow(<Header />);
+    expect(header.find('h1').exists()).toBe(true);
+  });
 });

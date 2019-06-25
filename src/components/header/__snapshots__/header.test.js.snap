@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component matches snapshot without props 1`] = `
+<header>
+  <h1>
+    Clicker!
+  </h1>
+</header>
+`;
