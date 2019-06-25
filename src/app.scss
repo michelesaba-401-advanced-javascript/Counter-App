@@ -1,0 +1,13 @@
+$backgroundColor: #777; 
+$white: #fff; 
+body {
+  background-color: $backgroundColor;
+  text-align: center;
+}
+a {
+  text-decoration: none; 
+}
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 60px;
+}
